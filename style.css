@@ -1,0 +1,90 @@
+h1{
+border-width: 1px;
+border-color: #3d3a3a;
+border-style: solid;
+padding: 20px;
+margin-top: 50px;
+margin-bottom: 50px;
+margin-left: 50px;
+margin-right: 50px;
+color: #383737;
+font-family: sans-serif;
+}
+
+h1:hover{
+    color: #000;
+}
+
+img{
+    border: 0px solid #000;
+
+}
+body{
+    color: rgb(41, 39, 39);
+    font-family: sans-serif;
+    background-color: #e5f0ed;
+    margin: 0
+}
+
+.container{
+    width: 80%;
+    margin: 50px auto;
+}
+
+.photo img{
+    max-width: 100%;
+    height: auto;
+}
+
+.photo img:hover{
+    filter: grayscale(100%);
+    max-width: 100px;
+}
+
+.photo{
+    position: relative;
+    text-align: center;
+    background-color: #d6ddfa;
+    width: 100px;
+    margin: 0 auto 50px;
+    overflow:hidden ;
+    border-radius: 50%;
+}
+
+.name{
+    text-align: center;
+}
+
+.top{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    width: 100px;
+    height: 100px;
+    background-color: #ffdada;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.work-item{
+    flex-shrink: 0;
+    flex-basis: 33.3333%;
+    padding: 1px;
+    border: 1px solid #ebebeb;
+    padding: 0px;
+    box-sizing: border-box;
+    line-height: 0;
+}
+
+.work-item img{
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+
+.works{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
